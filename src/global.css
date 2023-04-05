@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-ibm-plex-mono: "IBM Plex Mono";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-77xl: 96px;
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-whitesmoke: #efefef;
+
+  /* border radiuses */
+  --br-31xl: 50px;
+}
