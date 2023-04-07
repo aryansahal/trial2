@@ -14,7 +14,7 @@ const Wireframe1 = () => {
   }, [navigate]);
 
   const onComponent3ContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/what-inspires-us");
   }, [navigate]);
 
   return (

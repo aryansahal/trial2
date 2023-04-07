@@ -1,0 +1,134 @@
+.what-inspires-us-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #d6d6d6 15.1%,
+    rgba(255, 255, 255, 0)
+  );
+  width: 1440px;
+  height: 2467px;
+}
+.layer-1-icon1 {
+  position: absolute;
+  top: 413px;
+  left: 324px;
+  width: 792.48px;
+  height: 217.19px;
+  overflow: hidden;
+  display: none;
+}
+.what-inspires-us-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  width: 1440px;
+  height: 80px;
+  display: none;
+}
+.forecasting-that-feels {
+  position: absolute;
+  top: calc(50% - 1054.5px);
+  left: calc(50% - 432px);
+  font-size: var(--font-size-77xl);
+  line-height: 112.5%;
+  display: inline-block;
+  width: 864px;
+}
+.use-our-in-house {
+  position: absolute;
+  top: calc(50% - 642.5px);
+  left: calc(50% - 350px);
+  font-size: var(--font-size-13xl);
+  font-weight: 300;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 700px;
+}
+.a-pressing-issue {
+  margin: 0;
+}
+.a-pressing-issue-container {
+  position: absolute;
+  top: calc(50% - 410.5px);
+  left: calc(50% - 268px);
+  font-weight: 300;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 536px;
+}
+.what-inspires-us-inner {
+  position: absolute;
+  top: 17.5px;
+  left: 68px;
+  width: 1288.5px;
+  height: 1005.5px;
+}
+.our-vision1,
+.under-the-hood1 {
+  position: absolute;
+  top: 36px;
+  left: 69px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.under-the-hood1 {
+  left: 200px;
+}
+.what-inspires-us1 {
+  position: absolute;
+  top: 36px;
+  left: 370px;
+  font-weight: 500;
+}
+.s1 {
+  letter-spacing: -0.13em;
+}
+.i1 {
+  letter-spacing: -0.2em;
+}
+.tafal1 {
+  letter-spacing: -0.1em;
+}
+.sitafal1 {
+  position: absolute;
+  height: 100%;
+  width: 75.19%;
+  top: 0;
+  left: 24.81%;
+  display: inline-block;
+}
+.subtract-icon1 {
+  position: absolute;
+  height: 78.95%;
+  width: 21.05%;
+  top: 5.26%;
+  right: 78.95%;
+  bottom: 15.79%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sitafal-group {
+  position: absolute;
+  top: 28px;
+  left: 654px;
+  width: 133px;
+  height: 38px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.what-inspires-us {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2467px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-mono);
+}

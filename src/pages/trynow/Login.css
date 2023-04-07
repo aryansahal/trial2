@@ -1,0 +1,191 @@
+.our-vision-child {
+  position: flex;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #e6fe9e 10.42%,
+    rgba(255, 255, 255, 0)
+  );
+  width: 1440px;
+  height: 2467px;
+}
+.layer-1-icon3 {
+  position: absolute;
+  top: 100px;
+  left: 324px;
+  width: 792.48px;
+  height: 217.19px;
+  overflow: hidden;
+  display: none;
+}
+.our-vision-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  width: 1440px;
+  height: 80px;
+  display: none;
+}
+.unlock-new {
+  margin: 0;
+}
+.unlock-new-paradigms-container {
+  position: absolute;
+  top: calc(50% - 1054.5px);
+  left: calc(50% - 374px);
+  font-size: var(--font-size-77xl);
+  line-height: 112.5%;
+  display: inline-block;
+  width: 749px;
+}
+.train-10x-bigger {
+  position: absolute;
+  top: calc(50% - 562.5px);
+  left: calc(50% - 350px);
+  font-size: var(--font-size-13xl);
+  font-weight: 300;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 700px;
+}
+.chatgpt-has-taken {
+  font-weight: 300;
+}
+.the-hindi-word {
+  font-weight: 300;
+  font-family: var(--font-poppins);
+}
+.p {
+  margin: 0;
+  font-weight: 300;
+}
+.chatgpt-has-taken-container {
+  position: absolute;
+  top: calc(50% - 420.5px);
+  left: calc(50% - 268px);
+  display: inline-block;
+  width: 536px;
+  font-family: var(--font-poppins);
+}
+
+.s3 {
+  letter-spacing: -0.13em;
+}
+.i3 {
+  letter-spacing: -0.2em;
+}
+.tafal3 {
+  letter-spacing: -0.1em;
+}
+.sitafal4 {
+  position: absolute;
+  height: 100%;
+  width: 75.19%;
+  top: 0;
+  left: 24.81%;
+  display: inline-block;
+}
+.subtract-icon3 {
+  position: absolute;
+  height: 78.95%;
+  width: 21.05%;
+  top: 5.26%;
+  right: 78.95%;
+  bottom: 15.79%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div {
+  position: absolute;
+  top: 28px;
+  left: 654px;
+  width: 133px;
+  height: 38px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.our-vision4 {
+  position: absolute;
+  top: 36px;
+  left: 69px;
+  font-weight: 500;
+}
+.under-the-hood4,
+.what-inspires-us3 {
+  position: absolute;
+  top: 36px;
+  left: 200px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.what-inspires-us3 {
+  left: 370px;
+}
+.our-vision3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2467px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-mono);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: normal;
+  width: 500px;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.login-input {
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.login-button {
+  background-color: #e6fe9e;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: #e6fe9e;
+}
