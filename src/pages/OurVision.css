@@ -10,7 +10,33 @@
   width: 1440px;
   height: 2467px;
 }
-.layer-1-icon3 {
+.component-5-child2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 27px 27px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+.try-now5 {
+  position: absolute;
+  top: 33.33%;
+  left: 27.03%;
+  font-weight: 300;
+}
+.component-55 {
+  position: absolute;
+  top: 0;
+  left: 1208px;
+  width: 148px;
+  height: 75px;
+  font-size: 16px;
+}
+.layer-1-icon2 {
   position: absolute;
   top: 413px;
   left: 324px;
@@ -23,7 +49,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--color-whitesmoke);
+  background-color: #efefef;
   width: 1440px;
   height: 80px;
   display: none;
@@ -33,59 +59,54 @@
 }
 .unlock-new-paradigms-container {
   position: absolute;
-  top: calc(50% - 1054.5px);
+  top: 226px;
   left: calc(50% - 374px);
-  font-size: var(--font-size-77xl);
+  font-size: 96px;
   line-height: 112.5%;
   display: inline-block;
   width: 749px;
 }
 .train-10x-bigger {
   position: absolute;
-  top: calc(50% - 562.5px);
+  top: 768px;
   left: calc(50% - 350px);
-  font-size: var(--font-size-13xl);
+  font-size: 32px;
   font-weight: 300;
-  font-family: var(--font-poppins);
+  font-family: Poppins;
   display: inline-block;
   width: 700px;
 }
-.chatgpt-has-taken {
+.chatgpt-has-taken1,
+.sitafal8 {
   font-weight: 300;
 }
-.the-hindi-word {
-  font-weight: 300;
-  font-family: var(--font-poppins);
+.sitafal8 {
+  font-family: Poppins;
 }
-.p {
+.say-goodbye-to {
   margin: 0;
   font-weight: 300;
 }
-.chatgpt-has-taken-container {
+.chatgpt-has-taken-container1 {
   position: absolute;
-  top: calc(50% - 420.5px);
+  top: 1111px;
   left: calc(50% - 268px);
+  font-size: 16px;
+  line-height: 160%;
   display: inline-block;
   width: 536px;
-  font-family: var(--font-poppins);
+  font-family: Poppins;
 }
-.our-vision-inner {
-  position: absolute;
-  top: 17.5px;
-  left: 68px;
-  width: 1288.5px;
-  height: 1005.5px;
-}
-.s3 {
+.s7 {
   letter-spacing: -0.13em;
 }
-.i3 {
+.i7 {
   letter-spacing: -0.2em;
 }
-.tafal3 {
+.tafal7 {
   letter-spacing: -0.1em;
 }
-.sitafal4 {
+.sitafal9 {
   position: absolute;
   height: 100%;
   width: 75.19%;
@@ -93,7 +114,7 @@
   left: 24.81%;
   display: inline-block;
 }
-.subtract-icon3 {
+.subtract-icon7 {
   position: absolute;
   height: 78.95%;
   width: 21.05%;
@@ -105,7 +126,41 @@
   overflow: hidden;
   max-height: 100%;
 }
-.group-div {
+.sitafal-parent4 {
+  position: absolute;
+  bottom: 60px;
+  left: 86px;
+  width: 133px;
+  height: 38px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 24px;
+}
+.our-vision-inner {
+  position: absolute;
+  bottom: 168.5px;
+  left: calc(50% - 635px);
+  width: 1270.5px;
+  height: 1021.5px;
+}
+.under-the-hood8,
+.unlocking-new-potential7,
+.what-excites-us8 {
+  position: absolute;
+  top: 36px;
+  left: 64px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.under-the-hood8,
+.what-excites-us8 {
+  left: 271px;
+  font-weight: 300;
+}
+.what-excites-us8 {
+  left: 413px;
+}
+.sitafal-parent5 {
   position: absolute;
   top: 28px;
   left: 654px;
@@ -113,32 +168,78 @@
   height: 38px;
   cursor: pointer;
   text-align: left;
-  font-size: var(--font-size-5xl);
+  font-size: 24px;
 }
-.our-vision4 {
-  position: absolute;
-  top: 36px;
-  left: 69px;
+.under-the-hood9,
+.unlocking-new-potential8 {
+  position: relative;
   font-weight: 500;
-}
-.under-the-hood4,
-.what-inspires-us3 {
-  position: absolute;
-  top: 36px;
-  left: 200px;
-  font-weight: 300;
   cursor: pointer;
 }
-.what-inspires-us3 {
-  left: 370px;
+.under-the-hood9 {
+  font-weight: 300;
 }
-.our-vision3 {
+.unlocking-new-potential-parent4 {
+  position: absolute;
+  top: 1844px;
+  left: 492px;
+  width: 457px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 41px;
+}
+.component-56 {
+  position: absolute;
+  top: 0;
+  right: 84px;
+  width: 148px;
+  height: 75px;
+  font-size: 16px;
+}
+.sitafal-parent6 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 67px);
+  width: 133px;
+  height: 38px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 24px;
+}
+.unlocking-new-potential-parent5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.06);
+  width: 1440px;
+  height: 80px;
+  overflow: hidden;
+}
+.our-vision-child1 {
+  position: absolute;
+  top: 17.5px;
+  left: 60.5px;
+  width: 1296px;
+  height: 1005.5px;
+}
+.our-vision-child2 {
+  position: absolute;
+  right: 84px;
+  bottom: 67px;
+  width: 174px;
+  height: 24px;
+}
+.our-vision {
   position: relative;
-  background-color: var(--color-white);
+  background-color: #fff;
   width: 100%;
-  height: 2467px;
+  height: 1931px;
   text-align: center;
-  font-size: var(--font-size-base);
-  color: var(--color-black);
-  font-family: var(--font-ibm-plex-mono);
+  font-size: 12px;
+  color: #000;
+  font-family: "IBM Plex Mono";
 }

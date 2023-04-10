@@ -1,0 +1,92 @@
+.frameIcon1,
+.instagramOriginalIcon {
+  position: relative;
+  width: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.instagramOriginalIcon {
+  height: 24px;
+}
+.frameIcon1 {
+  height: 25.71px;
+}
+.instagramOriginalParent {
+  position: absolute;
+  top: 94px;
+  left: 311px;
+  width: 58px;
+  height: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xl);
+}
+.vectorIcon {
+  position: relative;
+  width: 118px;
+  height: 31px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.unlockingNew {
+  margin: 0;
+}
+.unlockingNewPotentialContainer {
+  text-align: left;
+}
+.underTheHood,
+.unlockingNewPotentialContainer {
+  position: relative;
+  font-weight: 300;
+  cursor: pointer;
+}
+.vectorParent {
+  position: absolute;
+  top: 88px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.footerChild,
+.footerItem {
+  position: absolute;
+  top: 51.5px;
+  left: 12px;
+  width: 369px;
+  height: 1px;
+}
+.footerItem {
+  top: 0.5px;
+  left: 11px;
+}
+.requestWhitePaper {
+  position: relative;
+}
+.requestWhitePaperWrapper {
+  position: absolute;
+  top: 7px;
+  left: 101px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 196.5px);
+  width: 393px;
+  height: 377px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-ibm-plex-mono);
+}

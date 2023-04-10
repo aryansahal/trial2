@@ -1,0 +1,70 @@
+.component7Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.send {
+  position: absolute;
+  top: 38.1%;
+  left: 43.75%;
+  line-height: 109.5%;
+  font-weight: 300;
+}
+.component7,
+.component8Child {
+  position: absolute;
+  top: 740px;
+  left: 32px;
+  width: 288px;
+  height: 63px;
+}
+.component8Child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.component8 {
+  position: absolute;
+  top: 682px;
+  left: 32px;
+  width: 34px;
+  height: 34px;
+}
+.subscribeForUpdates {
+  position: absolute;
+  top: 692px;
+  left: 74px;
+  font-size: var(--font-size-xs);
+  line-height: 109.5%;
+  font-weight: 300;
+  color: var(--color-gray-200);
+}
+.component7Parent {
+  position: absolute;
+  top: 1734px;
+  left: 20px;
+  border-radius: var(--br-8xl);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 354px;
+  height: 840px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-ibm-plex-mono);
+}

@@ -1,0 +1,318 @@
+.landing-mobile-child {
+  position: absolute;
+  top: 822px;
+  left: 0;
+  background: linear-gradient(180deg, #fff 13.85%, #e6fe9e);
+  width: 393px;
+  height: 712px;
+}
+.sowing-mobile {
+  margin: 0;
+}
+.agi-mobile {
+  font-weight: 600;
+  font-family: "IBM Plex Mono";
+  background: linear-gradient(256.92deg, #1f4c42, #e6fe9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sowing-the-seeds-container-mobile {
+  position: relative;
+  line-height: 109.5%;
+  display: inline-block;
+  width: 352px;
+  flex-shrink: 0;
+}
+.sowing-the-seeds-for-agi-wrapper-mobile {
+  position: absolute;
+  top: 205px;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 48px;
+  font-family: "IBM Plex Mono";
+}
+.chatgpt-has-taken-mobile,
+.sitafal-mobile {
+  font-weight: 300;
+}
+.sitafal-mobile {
+  font-family: Poppins;
+}
+.chatgpt-has-taken-container-mobile {
+  position: absolute;
+  top: 972px;
+  left: calc(50% - 166.5px);
+  line-height: 180%;
+  display: inline-block;
+  width: 333px;
+  height: 286px;
+}
+.landing-mobile-item {
+  position: absolute;
+  top: 1257px;
+  left: calc(50% - 170.5px);
+  width: 341px;
+  height: 192px;
+}
+.group-child-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 27px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  width: 334px;
+  height: 121px;
+}
+.our-clients-mobile {
+  position: absolute;
+  top: 22.45px;
+  left: 101px;
+  display: inline-block;
+  width: 132px;
+  height: 31.46px;
+}
+.image-1-icon-mobile {
+  position: absolute;
+  top: 64px;
+  left: 89px;
+  width: 157px;
+  height: 31px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangle-parent-mobile {
+  position: absolute;
+  top: 1572px;
+  left: 30px;
+  width: 334px;
+  height: 121px;
+  font-size: 20px;
+  font-family: "IBM Plex Mono";
+}
+.landing-mobile-inner-mobile {
+  position: absolute;
+  top: 1987px;
+  left: 33px;
+  border-radius: 21px;
+  background-color: #1f4c42;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  width: 327px;
+  height: 573px;
+}
+.chat-to-us-mobile {
+  position: absolute;
+  top: 1752px;
+  left: 137px;
+  font-size: 20px;
+  font-family: "IBM Plex Mono";
+}
+.vapecuppingwoke-mobile {
+  margin: 0;
+  color: #000;
+}
+.organic-hashtag-fam-container-mobile {
+  position: absolute;
+  top: 1788px;
+  left: 111px;
+  line-height: 180%;
+  display: inline-block;
+  width: 173px;
+  color: #9b9b9b;
+}
+.vector-icon-mobile {
+  position: absolute;
+  top: 137px;
+  left: 102px;
+  width: 190px;
+  height: 45px;
+}
+.landing-mobile-child1-mobile {
+  position: absolute;
+  top: 1862.5px;
+  left: 53px;
+  width: 288px;
+  height: 1px;
+}
+.call-us-mobile {
+  position: absolute;
+  top: 1878px;
+  left: 155px;
+  font-size: 20px;
+  font-family: "IBM Plex Mono";
+}
+.organic-hashtag-fam-container1-mobile {
+  position: absolute;
+  top: 1914px;
+  left: 114px;
+  line-height: 180%;
+  color: #9b9b9b;
+}
+.lets-team-up-mobile {
+  position: absolute;
+  top: 2026px;
+  left: 119px;
+  font-size: 20px;
+  font-family: "IBM Plex Mono";
+  color: #fff;
+  text-align: left;
+}
+.semiotics-shabby-chic-mobile {
+  position: absolute;
+  top: 2065px;
+  left: 109px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  width: 176px;
+}
+.landing-mobile-child2-mobile {
+  position: absolute;
+  top: 2202.5px;
+  left: 52px;
+  width: 289px;
+  height: 136.5px;
+}
+.your-email-mobile,
+.your-message-mobile,
+.your-name-mobile {
+  position: absolute;
+  top: 2183px;
+  left: 53.5px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: left;
+}
+.your-email-mobile,
+.your-message-mobile {
+  top: 2242px;
+  left: 52px;
+}
+.your-message-mobile {
+  top: 2300px;
+}
+.unlocking-new-potential-mobile {
+  position: relative;
+  line-height: 109.5%;
+  font-weight: 300;
+}
+.frame-20default-child-mobile {
+  position: relative;
+  width: 13.92px;
+  height: 13.92px;
+  flex-shrink: 0;
+}
+.frame-20default-mobile,
+.frame-21default-mobile {
+  border-radius: 27px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  width: 333px;
+  height: 111px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: row;
+  cursor: pointer;
+}
+.frame-20default-mobile {
+  display: flex;
+  padding: 17px 22px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.frame-21default-mobile {
+  padding: 19px 22px;
+  gap: 14px;
+}
+.frame-20default-parent-mobile,
+.frame-21default-mobile,
+.frame-22default-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-22default-mobile {
+  border-radius: 27px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  width: 333px;
+  height: 111px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 21px 22px;
+  gap: 11px;
+  cursor: pointer;
+}
+.frame-20default-parent-mobile {
+  position: absolute;
+  top: 435px;
+  left: 30px;
+  flex-direction: column;
+  gap: 7px;
+  text-align: left;
+  font-size: 14px;
+  font-family: "IBM Plex Mono";
+}
+.hamburger-icon-mobile,
+.vector-icon1-mobile {
+  position: relative;
+  width: 100px;
+  height: 24px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.hamburger-icon-mobile {
+  width: 50px;
+  height: 50px;
+}
+.navbar-mobile {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.09);
+  width: 390px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 39px 8px 0 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-wrapper-mobile {
+  position: absolute;
+  top: -1px;
+  left: -11px;
+  width: 413px;
+  height: 115px;
+  overflow-y: auto;
+}
+.rectangle-div-mobile {
+  position: absolute;
+  top: -51px;
+  left: 14px;
+  background-color: #fff;
+  width: 120px;
+  height: 137px;
+}
+.landing-mobile {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 3012px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-family: Poppins;
+}
