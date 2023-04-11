@@ -201,18 +201,20 @@ textarea {
   font-size: 12px;
   margin: 0; /* reset margin to remove default browser styles */
 }
-
+textarea {
+  height: 100px;
+}
 .your-name-mobile {
-  top: 2130px;
+  top: 2120px;
   left: 52px;
 }
 .your-email-mobile,
 .your-message-mobile {
-  top: 2160px;
+  top: 2140px;
   left: 52px;
 }
 .your-message-mobile {
-  top: 2190px;
+  top: 2160px;
 }
 .unlocking-new-potential-mobile {
   position: relative;
