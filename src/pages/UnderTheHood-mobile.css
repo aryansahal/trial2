@@ -1,4 +1,4 @@
--mobile.under-the-hood-mobile-child {
+.under-the-hood-mobile-child {
   position: absolute;
   top: 63px;
   left: 0;
@@ -69,10 +69,12 @@
 .hamburger-icon3-mobile,
 .vector-icon5-mobile {
   position: relative;
-  width: 100px;
-  height: 24px;
   flex-shrink: 0;
   cursor: pointer;
+}
+.vector-icon5-mobile {
+  width: 100px;
+  height: 24px;
 }
 .hamburger-icon3-mobile {
   width: 50px;

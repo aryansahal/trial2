@@ -1,17 +1,17 @@
-.frameIcon1,
-.instagramOriginalIcon {
+.frame-icon1-moblie,
+.instagram-original-icon-moblie {
   position: relative;
   width: 24px;
   flex-shrink: 0;
   overflow: hidden;
 }
-.instagramOriginalIcon {
+.instagram-original-icon-moblie {
   height: 24px;
 }
-.frameIcon1 {
+.frame-icon1-moblie {
   height: 25.71px;
 }
-.instagramOriginalParent {
+.instagram-original-parent-moblie {
   position: absolute;
   top: 94px;
   left: 311px;
@@ -21,28 +21,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-9xl);
+  gap: 28px;
 }
-.vectorIcon {
+.vector-icon8-moblie {
   position: relative;
   width: 118px;
   height: 31px;
   flex-shrink: 0;
   cursor: pointer;
 }
-.unlockingNew {
+.unlocking-new-moblie {
   margin: 0;
 }
-.unlockingNewPotentialContainer {
+.unlocking-new-potential-container-moblie {
   text-align: left;
 }
-.underTheHood,
-.unlockingNewPotentialContainer {
+.under-the-hood1-moblie,
+.unlocking-new-potential-container-moblie {
   position: relative;
   font-weight: 300;
   cursor: pointer;
 }
-.vectorParent {
+.vector-parent-moblie {
   position: absolute;
   top: 88px;
   left: 30px;
@@ -50,35 +50,35 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-9xl);
+  gap: 28px;
 }
-.footerChild,
-.footerItem {
+.footer-child-moblie,
+.footer-item-moblie {
   position: absolute;
   top: 51.5px;
   left: 12px;
   width: 369px;
   height: 1px;
 }
-.footerItem {
+.footer-item-moblie {
   top: 0.5px;
   left: 11px;
 }
-.requestWhitePaper {
+.request-white-paper-moblie {
   position: relative;
 }
-.requestWhitePaperWrapper {
+.request-white-paper-wrapper-moblie {
   position: absolute;
   top: 7px;
   left: 101px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-3xs);
+  padding: 10px;
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
 }
-.footer {
+.footer-moblie {
   position: absolute;
   bottom: 0;
   left: calc(50% - 196.5px);
@@ -86,7 +86,7 @@
   height: 377px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-mini);
-  color: var(--color-black);
-  font-family: var(--font-ibm-plex-mono);
+  font-size: 15px;
+  color: #000;
+  font-family: "IBM Plex Mono";
 }

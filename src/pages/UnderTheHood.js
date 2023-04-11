@@ -67,7 +67,7 @@ const MobileApp = () => {
           </p>
           <p className="any-machine-learning-mobile">&nbsp;</p>
           <p className="any-machine-learning-mobile">{`We use a transformative way of storing data, using a public protocol called IPFS that solves this bottleneck. IPFS not only keeps your data completely encrypted, & secure with a >99.9% availability guarantee, it also gives you the opportunity to own your data. `}</p>
-          <p className="any-machine-learning-mobile-mobile">
+          <p className="any-machine-learning-mobile">
             The verifiable ownership of data helps ensure that the researcher is
             compensated fairly when his data is used to train other models. 
           </p>
@@ -87,7 +87,7 @@ const MobileApp = () => {
             <img
               className="hamburger-icon3-mobile"
               alt=""
-              src="/hamburger1.svg"
+              src="/hamburger1.svg-mobile"
               onClick={openMenu}
             />
           </div>

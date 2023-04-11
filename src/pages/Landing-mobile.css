@@ -156,15 +156,17 @@
 .lets-team-up-mobile {
   position: absolute;
   top: 2026px;
-  left: 119px;
-  font-size: 20px;
+  left: 80px;
+  font-size: 16px;
   font-family: "IBM Plex Mono";
   color: #fff;
-  text-align: left;
+  text-align: center;
+  display: inline-block;
+  width: 250px;
 }
 .semiotics-shabby-chic-mobile {
   position: absolute;
-  top: 2065px;
+  top: 2035px;
   left: 109px;
   line-height: 180%;
   color: rgba(255, 255, 255, 0.6);

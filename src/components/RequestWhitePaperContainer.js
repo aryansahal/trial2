@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import styles from "./RequestWhitePaperContainer.module.css";
+import "./RequestWhitePaperContainer.css";
 
 const RequestWhitePaperContainer = ({
   productIds,
@@ -20,42 +20,52 @@ const RequestWhitePaperContainer = ({
   }, [propBottom, propLeft, propTop]);
 
   return (
-    <div className={styles.footer} style={footerStyle}>
-      <div className={styles.instagramOriginalParent}>
+    <div className="footer-moblie" style={footerStyle}>
+      <div className="instagram-original-parent-moblie">
         <img
-          className={styles.instagramOriginalIcon}
+          className="instagram-original-icon-moblie"
           alt=""
           src="/instagramoriginal.svg"
         />
-        <img className={styles.instagramOriginalIcon} alt="" src="/frame.svg" />
-        <img className={styles.frameIcon1} alt="" src="/frame1.svg" />
-        <img className={styles.instagramOriginalIcon} alt="" src={productIds} />
-      </div>
-      <div className={styles.vectorParent}>
         <img
-          className={styles.vectorIcon}
+          className="instagram-original-icon-moblie"
+          alt=""
+          src="/frame.svg"
+        />
+        <a href="https://twitter.com/SitafalAi">
+          <img className="frame-icon1-moblie" alt="" src="/frame1.svg" />
+        </a>
+        <img
+          className="instagram-original-icon-moblie"
+          alt=""
+          src={productIds}
+        />
+      </div>
+      <div className="vector-parent-moblie">
+        <img
+          className="vector-icon8-moblie"
           alt=""
           src="/vector2.svg"
           onClick={onVector2Click}
         />
         <div
-          className={styles.unlockingNewPotentialContainer}
+          className="unlocking-new-potential-container-moblie"
           onClick={onUnlockingNewPotentialClick}
         >
-          <p className={styles.unlockingNew}>Unlocking New</p>
-          <p className={styles.unlockingNew}>Potential</p>
+          <p className="unlocking-new-moblie">Unlocking New</p>
+          <p className="unlocking-new-moblie">Potential</p>
         </div>
-        <div className={styles.underTheHood} onClick={onUnderTheHoodClick}>
+        <div className="under-the-hood1-moblie" onClick={onUnderTheHoodClick}>
           Under The Hood
         </div>
-        <div className={styles.underTheHood} onClick={onWhatExcitesUsClick}>
+        <div className="under-the-hood1-moblie" onClick={onWhatExcitesUsClick}>
           What Excites Us
         </div>
       </div>
-      <img className={styles.footerChild} alt="" src="/vector-16.svg" />
-      <img className={styles.footerItem} alt="" src="/vector-16.svg" />
-      <div className={styles.requestWhitePaperWrapper}>
-        <div className={styles.requestWhitePaper}>Request White Paper</div>
+      <img className="footer-child-moblie" alt="" src="/vector-16.svg" />
+      <img className="footer-item-moblie" alt="" src="/vector-16.svg" />
+      <div className="request-white-paper-wrapper-moblie">
+        <div className="request-white-paper-moblie">Request White Paper</div>
       </div>
     </div>
   );

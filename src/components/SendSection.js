@@ -1,16 +1,16 @@
-import styles from "./SendSection.module.css";
+import "./SendSection.css";
 
 const SendSection = () => {
   return (
-    <div className={styles.component7Parent}>
-      <div className={styles.component7}>
-        <div className={styles.component7Child} />
-        <div className={styles.send}>Send</div>
+    <div className="component-7-parent">
+      <div className="component-7">
+        <div className="component-7-child" />
+        <div className="send">Send</div>
       </div>
-      <div className={styles.component8}>
-        <div className={styles.component8Child} />
+      <div className="component-8">
+        <div className="component-8-child" />
       </div>
-      <div className={styles.subscribeForUpdates}>Subscribe for updates</div>
+      <div className="subscribe-for-updates">Subscribe for updates</div>
     </div>
   );
 };

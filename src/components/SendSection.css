@@ -1,4 +1,4 @@
-.component7Child {
+.component-7-child {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -6,8 +6,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-smi);
-  border: 1px solid var(--color-gray-100);
+  border-radius: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
 }
 .send {
@@ -17,54 +17,54 @@
   line-height: 109.5%;
   font-weight: 300;
 }
-.component7,
-.component8Child {
+.component-7 {
   position: absolute;
   top: 740px;
   left: 32px;
   width: 288px;
   height: 63px;
 }
-.component8Child {
+.component-8-child {
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-darkslategray);
-  border: 1px solid var(--color-gray-400);
+  border-radius: 8px;
+  background-color: #1f4c42;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
 }
-.component8 {
+.component-8 {
   position: absolute;
   top: 682px;
   left: 32px;
   width: 34px;
   height: 34px;
 }
-.subscribeForUpdates {
+.subscribe-for-updates {
   position: absolute;
   top: 692px;
   left: 74px;
-  font-size: var(--font-size-xs);
+  font-size: 12px;
   line-height: 109.5%;
   font-weight: 300;
-  color: var(--color-gray-200);
+  color: rgba(255, 255, 255, 0.7);
 }
-.component7Parent {
+.component-7-parent {
   position: absolute;
   top: 1734px;
   left: 20px;
-  border-radius: var(--br-8xl);
-  border: 1px solid var(--color-gray-400);
+  border-radius: 27px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   width: 354px;
   height: 840px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-mini);
-  color: var(--color-white);
-  font-family: var(--font-ibm-plex-mono);
+  font-size: 15px;
+  color: #fff;
+  font-family: "IBM Plex Mono";
 }

@@ -97,8 +97,7 @@ const MobileApp = () => {
         <SendSection />
         <div className="chat-to-us-mobile">Chat to us</div>
         <div className="organic-hashtag-fam-container-mobile">
-          <p className="sowing-mobile">{`Organic hashtag fam `}</p>
-          <p className="vapecuppingwoke-mobile">vape@cupping.woke</p>
+          <p className="vapecuppingwoke-mobile">connect@sitafal.ai</p>
         </div>
         <img className="vector-icon-mobile" alt="" src="/vector3.svg" />
         <img
@@ -106,13 +105,8 @@ const MobileApp = () => {
           alt=""
           src="/vector-15.svg"
         />
-        <div className="call-us-mobile">Call us</div>
-        <div className="organic-hashtag-fam-container1-mobile">
-          <p className="sowing-mobile">{`Organic hashtag fam `}</p>
-          <p className="vapecuppingwoke-mobile">+91 8982112508</p>
-        </div>
-        <div className="lets-team-up-mobile">Let’s team up</div>
-        <div className="semiotics-shabby-chic-mobile">{`Semiotics shabby chic lomo tote bag `}</div>
+
+        <div className="semiotics-shabby-chic-mobile">{`We would love to hear from you!`}</div>
         <img
           className="landing-mobile-child2-mobile"
           alt=""
@@ -417,7 +411,7 @@ const DesktopApp = () => {
             <div className="sowing-the-seeds-container">Chat to us</div>
             <div className="organic-hashtag-fam-container">
               <span>{`Organic hashtag fam `}</span>
-              <span className="vapecuppingwoke">vape@cupping.woke</span>
+              <span className="vapecuppingwoke">connect@sitafal.ai</span>
             </div>
           </div>
           <div className="call-us-parent">

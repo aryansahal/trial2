@@ -1,4 +1,4 @@
-import styles from "./Menu.module.css";
+import "./Menu.css";
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -16,20 +16,19 @@ const Menu = ({ onClose }) => {
     navigate("/what-excites-us");
   }, [navigate]);
   return (
-    <div className={styles.menu}>
-      <div
-        className={styles.menuButton}
-        onClick={onUnlockingNewPotential1Click}
-      >
-        <div className={styles.menuButton1}>Unlocking New Potential</div>
+    <div className="menu">
+      <div className="menu-button" onClick={onUnlockingNewPotential1Click}>
+        <div className="menu-button1">Unlocking New Potential</div>
       </div>
-      <div className={styles.menuButton2} onClick={onUnderTheHood1Click}>
-        <div className={styles.menuButton1}>Under The Hood</div>
+      <div className="menu-button2" onClick={onUnderTheHood1Click}>
+        <div className="menu-button1">Under The Hood</div>
       </div>
-      <div className={styles.menuButton4} onClick={onWhatExcitesUs1Click}>
-        <div className={styles.menuButton1}>What Excites Us</div>
+      <div className="menu-button4">
+        <div className="menu-button1" onClick={onWhatExcitesUs1Click}>
+          What Excites Us
+        </div>
       </div>
-      <img className={styles.hamburgerIcon} alt="" src="/hamburger.svg" />
+      <img className="hamburger-icon1" alt="" src="/hamburger.svg" />
     </div>
   );
 };

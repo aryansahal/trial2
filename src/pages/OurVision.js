@@ -27,7 +27,7 @@ const MobileApp = () => {
   }, [navigate]);
 
   const onWhatExcitesUsClick = useCallback(() => {
-    navigate("/what-excites-us-mobile");
+    navigate("/what-excites-us");
   }, [navigate]);
 
   const onVector1Click = useCallback(() => {
@@ -52,8 +52,8 @@ const MobileApp = () => {
           <p className="unlock-new-mobile">Artificial</p>
           <p className="unlock-new-mobile">Intelligence</p>
         </div>
-        <img className="vector-icon6-mobile" alt="" src="/vector.svg" />
-        <div className="sowing-the-seeds-container3-mobile">
+        <img className="vector-icon4-mobile" alt="" src="/vector.svg" />
+        <div className="sowing-the-seeds-container2-mobile">
           <p className="unlock-new-mobile">Sowing</p>
           <p className="unlock-new-mobile">the seeds for AGI</p>
         </div>
@@ -61,28 +61,28 @@ const MobileApp = () => {
           <p className="unlock-new-mobile">Train 10x bigger models,</p>
           <p className="unlock-new-mobile">10x faster </p>
         </div>
-        <div className="chatgpt-has-taken-container1-mobile">
+        <div className="chatgpt-has-taken-container-mobile">
           <p className="unlock-new-mobile">
-            <span className="chatgpt-has-taken1-mobile">{`ChatGPT has taken the world by storm & for good measure. But Language models (LLMs in tech-speak) will soon be optimized to oblivion. However, beyond Transformers (the T in GPT), hundreds of ML models are yet to see their true potential. We want to help you unlock that potential & bring your vision to fruition. Hence, we have named our platform `}</span>
-            <i className="sitafal1-mobile">Sitafal</i>
-            <span className="sitafal1-mobile">
+            <span className="chatgpt-has-taken-mobile">{`ChatGPT has taken the world by storm & for good measure. But Language models (LLMs in tech-speak) will soon be optimized to oblivion. However, beyond Transformers (the T in GPT), hundreds of ML models are yet to see their true potential. We want to help you unlock that potential & bring your vision to fruition. Hence, we have named our platform `}</span>
+            <i className="sitafal-mobile">Sitafal</i>
+            <span className="sitafal-mobile">
               {" "}
               (the hindi word for Custard Apple)
             </span>
           </p>
-          <p className="say-goodbye-to-mobile">.</p>
-          <p className="say-goodbye-to-mobile">{`Say goodbye to the data limits on Google Collab, & waiting for days to train your AI models. Use our platform to train 10x bigger models, at 10x faster speeds as you watch the future you build, unravel before your eyes.`}</p>
+          <p className="p-mobile">.</p>
+          <p className="p-mobile">{`Say goodbye to the data limits on Google Collab, & waiting for days to train your AI models. Use our platform to train 10x bigger models, at 10x faster speeds as you watch the future you build, unravel before your eyes.`}</p>
         </div>
-        <div className="frame-div-mobile">
-          <div className="navbar3-mobile">
+        <div className="navbar-frame-mobile">
+          <div className="navbar2-mobile">
             <img
-              className="vector-icon7-mobile"
+              className="vector-icon5-mobile"
               alt=""
               src="/vector1.svg"
               onClick={onVector1Click}
             />
             <img
-              className="hamburger-icon4-mobile"
+              className="hamburger-icon3-mobile"
               alt=""
               src="/hamburger1.svg"
               onClick={openMenu}
