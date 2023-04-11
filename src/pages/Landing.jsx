@@ -251,7 +251,18 @@ const MobileApp = () => {
 
 const DesktopApp = () => {
   const navigate = useNavigate();
-  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // handle form submission logic here
+    console.log("Name: ", name);
+    console.log("Email: ", email);
+    console.log("Message: ", message);
+  };
 
   const onVector4Click = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='frameContainer']");
@@ -465,45 +476,67 @@ const DesktopApp = () => {
           <div className="chat-to-us-parent">
             <div className="sowing-the-seeds-container">Chat to us</div>
             <div className="organic-hashtag-fam-container">
-              <span>{`Organic hashtag fam `}</span>
               <span className="vapecuppingwoke">connect@sitafal.ai</span>
             </div>
           </div>
           <div className="call-us-parent">
             <div className="sowing-the-seeds-container">Call us</div>
             <div className="organic-hashtag-fam-container">
-              <p className="unlocking">{`Organic hashtag fam `}</p>
-              <p className="p">+91 8982112508</p>
+              <p className="p">+91 9119225083</p>
             </div>
           </div>
           <div className="vector-parent">
             <img className="rectangle-icon" alt="" src="/rectangle-13.svg" />
-            <div className="vector-wrapper">
-              <img className="frame-child1" alt="" src="/vector-13.svg" />
-            </div>
+            <div className="vector-wrapper"></div>
             <div className="your-name-wrapper">
-              <div className="sowing-the-seeds-container">Your name</div>
+              <input
+                className="sowing-the-seeds-container"
+                type="text"
+                id="name"
+                value={name}
+                placeholder="Your name"
+                onChange={(event) => setName(event.target.value)}
+              />
             </div>
             <div className="your-email-wrapper">
-              <div className="sowing-the-seeds-container">Your email</div>
+              <input
+                className="sowing-the-seeds-container"
+                type="email"
+                id="email"
+                value={email}
+                placeholder="Your email"
+                onChange={(event) => setEmail(event.target.value)}
+              />
             </div>
+
             <div className="component-4-wrapper">
               <div className="component-4">
                 <div className="component-4-child" />
-                <div className="send">{`Send `}</div>
+                <button
+                  type="submit"
+                  className="component-4-child"
+                  onClick={handleSubmit}
+                >
+                  Send
+                </button>
               </div>
             </div>
             <div className="frame-div">
               <div className="lets-team-up-parent">
-                <div className="sowing-the-seeds-container">Let’s team up</div>
                 <div className="semiotics-shabby-chic">
-                  Semiotics shabby chic lomo tote bag sustainable XOXO
+                  We would love to hear from you!
                 </div>
               </div>
             </div>
             <div className="frame-wrapper1">
               <div className="your-message-wrapper">
-                <div className="sowing-the-seeds-container">Your message</div>
+                <textarea
+                  className="sowing-the-seeds-container"
+                  id="message"
+                  value={message}
+                  placeholder="Your message"
+                  onChange={(event) => setMessage(event.target.value)}
+                ></textarea>
               </div>
             </div>
             <div className="frame-child2" />
