@@ -125,12 +125,12 @@ const DesktopApp = () => {
   }, [navigate]);
 
   const onGroupContainerClick = useCallback(() => {
-    // Please sync "Landing" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   const onGroupContainer1Click = useCallback(() => {
-    // Please sync "Landing" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   const onUnlockingNewPotential1Click = useCallback(() => {
     navigate("/our-vision");
@@ -145,8 +145,8 @@ const DesktopApp = () => {
   }, [navigate]);
 
   const onGroupContainer2Click = useCallback(() => {
-    // Please sync "Landing" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   return (
     <div className="under-the-hood5">

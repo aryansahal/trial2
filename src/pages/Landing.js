@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import SendSection from "../components/SendSection";
+import "../components/SendSection.css";
 import Menu from "../components/Menu";
 import PortalPopup from "../components/PortalPopup";
 import RequestWhitePaperContainer from "../components/RequestWhitePaperContainer";
@@ -11,7 +11,17 @@ import "./Landing-mobile.css";
 const MobileApp = () => {
   const navigate = useNavigate();
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // handle form submission logic here
+    console.log("Name: ", name);
+    console.log("Email: ", email);
+    console.log("Message: ", message);
+  };
   const onVector4Click = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='frameContainer']");
     if (anchor) {
@@ -94,10 +104,31 @@ const MobileApp = () => {
           />
         </div>
         <div className="landing-mobile-inner-mobile" />
-        <SendSection />
+        <div className="component-7-parent">
+          <div className="component-7">
+            <div className="component-7-child" />
+            <button
+              type="submit"
+              className="component-7-child"
+              onClick={handleSubmit}
+            >
+              Send
+            </button>
+          </div>
+          <div className="component-8">
+            <input type="checkbox" className="component-8-child" />
+          </div>
+          <div className="subscribe-for-updates">Subscribe for updates</div>
+        </div>
         <div className="chat-to-us-mobile">Chat to us</div>
         <div className="organic-hashtag-fam-container-mobile">
           <p className="vapecuppingwoke-mobile">connect@sitafal.ai</p>
+        </div>
+        <img className="vector-icon6-mobile" alt="" src="/vector3.svg" />
+        <img className="landing-mobile-child1" alt="" src="/vector-15.svg" />
+        <div className="call-us-mobile">Call us</div>
+        <div className="organic-hashtag-fam-container1-mobile">
+          <p className="vapecuppingwoke-mobile">+91 9119225083</p>
         </div>
         <img className="vector-icon-mobile" alt="" src="/vector3.svg" />
         <img
@@ -112,9 +143,32 @@ const MobileApp = () => {
           alt=""
           src="/vector-13.svg"
         />
-        <div className="your-name-mobile">Your name</div>
-        <div className="your-email-mobile">Your email</div>
-        <div className="your-message-mobile">Your message</div>
+        <div className="your-name-mobile">
+          <input
+            type="text"
+            id="name"
+            value={name}
+            placeholder="Your name"
+            onChange={(event) => setName(event.target.value)}
+          />
+        </div>
+        <div className="your-email-mobile">
+          <input
+            type="email"
+            id="email"
+            value={email}
+            placeholder="Your email"
+            onChange={(event) => setEmail(event.target.value)}
+          />
+        </div>
+        <div className="your-message-mobile">
+          <textarea
+            id="message"
+            value={message}
+            placeholder="Your message"
+            onChange={(event) => setMessage(event.target.value)}
+          ></textarea>
+        </div>
         <div className="frame-20default-parent-mobile">
           <div
             className="frame-20default-mobile"

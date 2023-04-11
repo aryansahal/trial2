@@ -9,6 +9,12 @@
   border-radius: 13px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
+  background-color: #132f29;
+  color: #fff;
+  cursor: pointer;
+}
+.component-7-child :hover {
+  background-color: #1f4c42;
 }
 .send {
   position: absolute;
@@ -24,7 +30,7 @@
   width: 288px;
   height: 63px;
 }
-.component-8-child {
+input[type="checkbox"] {
   position: absolute;
   height: 100%;
   width: 100%;

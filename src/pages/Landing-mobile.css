@@ -149,7 +149,7 @@
 .organic-hashtag-fam-container1-mobile {
   position: absolute;
   top: 1914px;
-  left: 114px;
+  left: 139px;
   line-height: 180%;
   color: #9b9b9b;
 }
@@ -183,20 +183,36 @@
 .your-email-mobile,
 .your-message-mobile,
 .your-name-mobile {
-  position: absolute;
-  top: 2183px;
-  left: 53.5px;
-  font-size: 12px;
+  position: relative; /* change absolute to relative to contain child elements */
+  width: 100%; /* change width to 100% to match input field */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block; /* make input fields block elements to match div tags */
+  width: 289px; /* set width to 100% to fill parent container */
+  padding: 10px; /* add padding to create spacing between border and text */
+  border-radius: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  background-color: #132f29;
   color: rgba(255, 255, 255, 0.3);
-  text-align: left;
+  font-size: 12px;
+  margin: 0; /* reset margin to remove default browser styles */
+}
+
+.your-name-mobile {
+  top: 2130px;
+  left: 52px;
 }
 .your-email-mobile,
 .your-message-mobile {
-  top: 2242px;
+  top: 2160px;
   left: 52px;
 }
 .your-message-mobile {
-  top: 2300px;
+  top: 2190px;
 }
 .unlocking-new-potential-mobile {
   position: relative;

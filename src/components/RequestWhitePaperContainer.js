@@ -1,4 +1,6 @@
-import { useMemo } from "react";
+import { useMemo, useCallback } from "react";
+
+import { useNavigate } from "react-router-dom";
 import "./RequestWhitePaperContainer.css";
 
 const RequestWhitePaperContainer = ({
@@ -6,11 +8,21 @@ const RequestWhitePaperContainer = ({
   propBottom,
   propLeft,
   propTop,
-  onVector2Click,
-  onUnlockingNewPotentialClick,
-  onUnderTheHoodClick,
-  onWhatExcitesUsClick,
 }) => {
+  const navigate = useNavigate();
+  const onUnlockingNewPotential1Click = useCallback(() => {
+    navigate("/our-vision");
+  }, [navigate]);
+  const onLandingClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+  const onUnderTheHood1Click = useCallback(() => {
+    navigate("/under-the-hood");
+  }, [navigate]);
+
+  const onWhatExcitesUs1Click = useCallback(() => {
+    navigate("/what-excites-us");
+  }, [navigate]);
   const footerStyle = useMemo(() => {
     return {
       bottom: propBottom,
@@ -42,23 +54,20 @@ const RequestWhitePaperContainer = ({
         />
       </div>
       <div className="vector-parent-moblie">
-        <img
-          className="vector-icon8-moblie"
-          alt=""
-          src="/vector2.svg"
-          onClick={onVector2Click}
-        />
+        <div onClick={onLandingClick}>
+          <img className="vector-icon8-moblie" alt="" src="/vector2.svg" />
+        </div>
         <div
           className="unlocking-new-potential-container-moblie"
-          onClick={onUnlockingNewPotentialClick}
+          onClick={onUnlockingNewPotential1Click}
         >
           <p className="unlocking-new-moblie">Unlocking New</p>
           <p className="unlocking-new-moblie">Potential</p>
         </div>
-        <div className="under-the-hood1-moblie" onClick={onUnderTheHoodClick}>
+        <div className="under-the-hood1-moblie" onClick={onUnderTheHood1Click}>
           Under The Hood
         </div>
-        <div className="under-the-hood1-moblie" onClick={onWhatExcitesUsClick}>
+        <div className="under-the-hood1-moblie" onClick={onWhatExcitesUs1Click}>
           What Excites Us
         </div>
       </div>
