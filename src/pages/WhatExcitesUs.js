@@ -157,8 +157,8 @@ const DesktopApp = () => {
   }, [navigate]);
 
   const onGroupContainer2Click = useCallback(() => {
-    // Please sync "Landing" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   return (
     <div className="what-excites-us2">
@@ -236,6 +236,7 @@ const DesktopApp = () => {
         </div>
       </div>
       <div className="unlocking-new-potential-parent2">
+        <img className="what-excites-us-child2" alt="" src="/vector-10.svg" />
         <div
           className="unlocking-new-potential2"
           onClick={onUnlockingNewPotential2Click}
@@ -261,7 +262,6 @@ const DesktopApp = () => {
           <img className="subtract-icon1" alt="" src="/subtract.svg" />
         </div>
       </div>
-      <img className="what-excites-us-child2" alt="" src="/vector-10.svg" />
     </div>
   );
 };

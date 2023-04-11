@@ -331,6 +331,7 @@ const DesktopApp = () => {
       <img className="landing-item" alt="" src="/vector-11.svg" />
 
       <div className="component-5-parent">
+        <img className="landing-inner" alt="" src="/vector-10.svg" />
         <div className="component-5">
           <div className="component-5-child" />
           <div className="try-now">Try Now</div>
@@ -358,7 +359,7 @@ const DesktopApp = () => {
           </div>
         </div>
       </div>
-      <img className="landing-inner" alt="" src="/vector-10.svg" />
+
       <div className="instance-parent" onClick={onGroupContainerClick}>
         <div className="sitafal-parent">
           <div className="sitafal">

@@ -114,8 +114,8 @@ const DesktopApp = () => {
   const navigate = useNavigate();
 
   const onGroupContainerClick = useCallback(() => {
-    // Please sync "Landing" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   const onUnlockingNewPotentialClick = useCallback(() => {
     navigate("/our-vision");
@@ -130,8 +130,8 @@ const DesktopApp = () => {
   }, [navigate]);
 
   const onGroupContainer1Click = useCallback(() => {
-    // Please sync "Landing" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   const onUnlockingNewPotential1Click = useCallback(() => {
     navigate("/our-vision");
@@ -158,8 +158,8 @@ const DesktopApp = () => {
   }, [navigate]);
 
   const onGroupContainer2Click = useCallback(() => {
-    // Please sync "Landing" to the project
-  }, []);
+    navigate("/");
+  }, [navigate]);
 
   return (
     <div className="our-vision">
@@ -232,6 +232,7 @@ const DesktopApp = () => {
         </div>
       </div>
       <div className="unlocking-new-potential-parent5">
+        <img className="our-vision-child1" alt="" src="/vector-10.svg" />
         <div
           className="unlocking-new-potential7"
           onClick={onUnlockingNewPotential2Click}
@@ -257,7 +258,7 @@ const DesktopApp = () => {
           <img className="subtract-icon7" alt="" src="/subtract.svg" />
         </div>
       </div>
-      <img className="our-vision-child1" alt="" src="/vector-10.svg" />
+
       <img className="our-vision-child2" alt="" src="/group-4.svg" />
     </div>
   );

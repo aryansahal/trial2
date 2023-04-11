@@ -177,6 +177,7 @@ const DesktopApp = () => {
         <div className="try-now3">Try Now</div>
       </div>
       <div className="component-5-group">
+        <img className="under-the-hood-child1" alt="" src="/vector-10.svg" />
         <div className="component-54">
           <div className="rectangle-div" />
           <div className="try-now3">Try Now</div>
@@ -210,7 +211,7 @@ const DesktopApp = () => {
         </div>
         <div className="frame-child3" />
       </div>
-      <img className="under-the-hood-child1" alt="" src="/vector-10.svg" />
+
       <div className="instance-group">
         <div className="sitafal-parent3" onClick={onGroupContainer2Click}>
           <div className="sitafal5">
@@ -220,9 +221,6 @@ const DesktopApp = () => {
           </div>
           <img className="subtract-icon4" alt="" src="/subtract.svg" />
         </div>
-        <video className="wrapper" controls>
-          <source />
-        </video>
       </div>
       <div className="help-push-science-forward-parent">
         <div className="help-push-science">Help push science forward</div>
