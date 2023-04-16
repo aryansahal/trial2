@@ -330,137 +330,100 @@ const DesktopApp = () => {
       <div className="landing-child" />
       <img className="landing-item" alt="" src="/vector-11.svg" />
 
-      <div className="component-5-parent">
-        <img className="landing-inner" alt="" src="/vector-10.svg" />
-        <div className="component-5">
-          <div className="component-5-child" />
-          <div className="try-now">Try Now</div>
-        </div>
-        <div className="frame-wrapper">
-          <div className="unlocking-new-potential-parent">
-            <div
-              className="unlocking-new-potential"
-              onClick={onUnlockingNewPotential1Click}
-            >
-              Unlocking New Potential
-            </div>
-            <div
-              className="unlocking-new-potential"
-              onClick={onUnderTheHoodClick}
-            >
-              Under The Hood
-            </div>
-            <div
-              className="unlocking-new-potential"
-              onClick={onWhatExcitesUsClick}
-            >
-              What Excites Us
+      <div className="slide1">
+        <div className="frame-parent">
+          <div className="frame-group">
+            <div className="state-wrapper">
+              <div
+                className="component-1-wrapper"
+                onClick={onUnlockingNewPotential1Click}
+              >
+                <div className="state">
+                  <div className="state-child">
+                    <div className="unlocking-new-potential-container">
+                      <p className="unlocking">{`Unlocking `}</p>
+                      <p className="unlocking">New Potential</p>
+                    </div>
+                    <img className="state-item" alt="" src="/vector-7.svg" />
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="component-2-wrapper"
+                onClick={onUnderTheHood1Click}
+              >
+                <div className="state">
+                  <div className="state-child">
+                    <div className="unlocking-new-potential-container">
+                      <p className="unlocking">Under</p>
+                      <p className="unlocking">The Hood</p>
+                    </div>
+                    <img
+                      className="component-2-item"
+                      alt=""
+                      src="/vector-7.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="component-3-wrapper"
+                onClick={onWhatExcitesUs1Click}
+              >
+                <div className="state">
+                  <div className="state-child">
+                    <div className="unlocking-new-potential-container">
+                      <p className="unlocking">What</p>
+                      <p className="unlocking">Excites Us</p>
+                    </div>
+                    <img
+                      className="component-3-item"
+                      alt=""
+                      src="/vector-7.svg"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
+          <div className="sowing-the-seeds-for-agi-wrapper">
+            <div className="sowing-the-seeds-container">
+              <p className="unlocking">
+                <span className="sowing-the1">
+                  <span>Sowing the</span>
+                </span>
+              </p>
+              <p className="unlocking">
+                <span className="sowing-the1">
+                  <span>{`seeds for `}</span>
+                  <span className="agi">AGI</span>
+                </span>
+              </p>
+            </div>
+          </div>
+          <img className="frame-item" alt="" src="/frame-46.svg" />
+        </div>
+      </div>
+      <div className="slide2">
+        <div className="rectangle-parent">
+          <img className="frame-inner" alt="" src="/rectangle-12@2x.png" />
+          <div className="chatgpt-has-taken-container">
+            <p className="unlocking">
+              <span className="chatgpt-has-taken">{`ChatGPT has taken the world by storm & for good measure. But Language models (LLMs in tech-speak) will soon be optimized to oblivion. However, beyond Transformers (the T in GPT), hundreds of ML models are yet to see their true potential. We want to help you unlock that potential & bring your vision to fruition. Hence, we have named our platform `}</span>
+              <i className="the-hindi-word">Sitafal</i>
+              <span className="the-hindi-word">
+                {" "}
+                (the hindi word for Custard Apple)
+              </span>
+            </p>
+          </div>
+          <img className="group-icon" alt="" src="/group-5.svg" />
         </div>
       </div>
 
-      <div className="instance-parent" onClick={onGroupContainerClick}>
-        <div className="sitafal-parent">
-          <div className="sitafal">
-            <span className="s">s</span>
-            <span className="i">i</span>
-            <span className="tafal">tafal</span>
-          </div>
-          <img className="subtract-icon" alt="" src="/subtract.svg" />
-        </div>
-        <div className="unlocking-new-potential-group">
-          <div
-            className="unlocking-new-potential"
-            onClick={onUnlockingNewPotential1Click}
-          >
-            Unlocking New Potential
-          </div>
-          <div
-            className="unlocking-new-potential"
-            onClick={onUnderTheHood1Click}
-          >
-            Under The Hood
-          </div>
-          <div
-            className="unlocking-new-potential"
-            onClick={onWhatExcitesUs1Click}
-          >
-            What Excites Us
-          </div>
-        </div>
-        <img className="frame-child" alt="" src="/frame-41.svg" />
-      </div>
-      <div className="frame-parent">
-        <div className="frame-group">
-          <div className="state-wrapper">
-            <div
-              className="component-1-wrapper"
-              onClick={onUnlockingNewPotential1Click}
-            >
-              <div className="state">
-                <div className="state-child" />
-                <div className="unlocking-new-potential-container">
-                  <p className="unlocking">{`Unlocking `}</p>
-                  <p className="unlocking">New Potential</p>
-                </div>
-                <img className="state-item" alt="" src="/vector-7.svg" />
-              </div>
-            </div>
-          </div>
-          <div className="component-2-wrapper" onClick={onUnderTheHood1Click}>
-            <div className="state">
-              <div className="state-child" />
-              <div className="unlocking-new-potential-container">
-                <p className="unlocking">Under</p>
-                <p className="unlocking">The Hood</p>
-              </div>
-              <img className="component-2-item" alt="" src="/vector-7.svg" />
-            </div>
-          </div>
-          <div className="component-3-wrapper" onClick={onWhatExcitesUs1Click}>
-            <div className="state">
-              <div className="state-child" />
-              <div className="unlocking-new-potential-container">
-                <p className="unlocking">What</p>
-                <p className="unlocking">Excites Us</p>
-              </div>
-              <img className="component-3-item" alt="" src="/vector-7.svg" />
-            </div>
-          </div>
-        </div>
-        <div className="sowing-the-seeds-for-agi-wrapper">
-          <div className="sowing-the-seeds-container">
-            <p className="unlocking">
-              <span className="sowing-the1">
-                <span>Sowing the</span>
-              </span>
-            </p>
-            <p className="unlocking">
-              <span className="sowing-the1">
-                <span>{`seeds for `}</span>
-                <span className="agi">AGI</span>
-              </span>
-            </p>
-          </div>
-        </div>
-        <img className="frame-item" alt="" src="/frame-46.svg" />
-      </div>
-      <div className="rectangle-parent">
-        <img className="frame-inner" alt="" src="/rectangle-12@2x.png" />
-        <div className="chatgpt-has-taken-container">
-          <p className="unlocking">
-            <span className="chatgpt-has-taken">{`ChatGPT has taken the world by storm & for good measure. But Language models (LLMs in tech-speak) will soon be optimized to oblivion. However, beyond Transformers (the T in GPT), hundreds of ML models are yet to see their true potential. We want to help you unlock that potential & bring your vision to fruition. Hence, we have named our platform `}</span>
-            <i className="the-hindi-word">Sitafal</i>
-            <span className="the-hindi-word">
-              {" "}
-              (the hindi word for Custard Apple)
-            </span>
-          </p>
-        </div>
-        <img className="group-icon" alt="" src="/group-5.svg" />
-      </div>
-      <div className="frame-container">
+      <div className="frame-container" id="Contactus-clients">
         <div className="our-clients-parent">
           <div className="sowing-the-seeds-container">Our clients</div>
           <img
@@ -477,18 +440,25 @@ const DesktopApp = () => {
           <div className="chat-to-us-parent">
             <div className="sowing-the-seeds-container">Chat to us</div>
             <div className="organic-hashtag-fam-container">
-              <span className="vapecuppingwoke">connect@sitafal.ai</span>
+              <span className="vapecuppingwoke"> connect@sitafal.ai</span>
             </div>
           </div>
           <div className="call-us-parent">
             <div className="sowing-the-seeds-container">Call us</div>
             <div className="organic-hashtag-fam-container">
-              <p className="p">+91 9119225083</p>
+              <p className="p"> +91 91192 25083</p>
             </div>
           </div>
           <div className="vector-parent">
             <img className="rectangle-icon" alt="" src="/rectangle-13.svg" />
             <div className="vector-wrapper"></div>
+            <div className="frame-div">
+              <div className="lets-team-up-parent">
+                <div className="semiotics-shabby-chic">
+                  We would love to hear from you!
+                </div>
+              </div>
+            </div>
             <div className="your-name-wrapper">
               <input
                 className="sowing-the-seeds-container"
@@ -510,6 +480,17 @@ const DesktopApp = () => {
               />
             </div>
 
+            <div className="frame-wrapper1">
+              <div className="your-message-wrapper">
+                <textarea
+                  className="sowing-the-seeds-container"
+                  id="message"
+                  value={message}
+                  placeholder="Your message"
+                  onChange={(event) => setMessage(event.target.value)}
+                ></textarea>
+              </div>
+            </div>
             <div className="component-4-wrapper">
               <div className="component-4">
                 <div className="component-4-child" />
@@ -522,28 +503,76 @@ const DesktopApp = () => {
                 </button>
               </div>
             </div>
-            <div className="frame-div">
-              <div className="lets-team-up-parent">
-                <div className="semiotics-shabby-chic">
-                  We would love to hear from you!
-                </div>
-              </div>
-            </div>
-            <div className="frame-wrapper1">
-              <div className="your-message-wrapper">
-                <textarea
-                  className="sowing-the-seeds-container"
-                  id="message"
-                  value={message}
-                  placeholder="Your message"
-                  onChange={(event) => setMessage(event.target.value)}
-                ></textarea>
-              </div>
-            </div>
             <div className="frame-child2" />
           </div>
           <div className="contact-card-child" />
           <div className="contact-card-item" />
+        </div>
+      </div>
+      <div className="footer-common">
+        <div className="instance-parent" onClick={onGroupContainerClick}>
+          <div className="sitafal-parent">
+            <div className="sitafal">
+              <span className="s">s</span>
+              <span className="i">i</span>
+              <span className="tafal">tafal</span>
+            </div>
+            <img className="subtract-icon" alt="" src="/subtract.svg" />
+          </div>
+          <div className="unlocking-new-potential-group">
+            <div
+              className="unlocking-new-potential"
+              onClick={onUnlockingNewPotential1Click}
+            >
+              Unlocking New Potential
+            </div>
+            <div
+              className="unlocking-new-potential"
+              onClick={onUnderTheHood1Click}
+            >
+              Under The Hood
+            </div>
+            <div
+              className="unlocking-new-potential"
+              onClick={onWhatExcitesUs1Click}
+            >
+              What Excites Us
+            </div>
+          </div>
+          <div className="Social-links">
+            <img className="frame-child" alt="" src="/frame-41.svg" />
+          </div>
+        </div>
+      </div>
+      <div className="Navbar-common">
+        <div className="component-5-parent">
+          <img className="landing-inner" alt="" src="/vector-10.svg" />
+          <div className="component-5">
+            <div className="component-5-child" />
+            <div className="try-now">Try Now</div>
+          </div>
+          <div className="frame-wrapper">
+            <div className="unlocking-new-potential-parent">
+              <div
+                className="unlocking-new-potential"
+                onClick={onUnlockingNewPotential1Click}
+              >
+                Unlocking New Potential
+              </div>
+              <div
+                className="unlocking-new-potential"
+                onClick={onUnderTheHoodClick}
+              >
+                Under The Hood
+              </div>
+              <div
+                className="unlocking-new-potential"
+                onClick={onWhatExcitesUsClick}
+              >
+                What Excites Us
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
