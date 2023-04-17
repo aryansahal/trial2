@@ -329,7 +329,24 @@ const DesktopApp = () => {
     <div className="landing">
       <div className="landing-child" />
       <img className="landing-item" alt="" src="/vector-11.svg" />
+      <div className="footer-common">
+        <div className="instance-parent" onClick={onGroupContainerClick}>
+          <div className="sitafal-parent">
+            <div className="sitafal">
+              <span className="s">s</span>
+              <span className="i">i</span>
+              <span className="tafal">tafal</span>
+            </div>
+            <img className="subtract-icon" alt="" src="/subtract.svg" />
+          </div>
 
+          <div className="Social-links">
+            <a href="https://twitter.com/SitafalAi">
+              <img className="frame-child" alt="" src="/frame-41.svg" />
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="slide1">
         <div className="frame-parent">
           <div className="frame-group">
@@ -419,7 +436,6 @@ const DesktopApp = () => {
               </span>
             </p>
           </div>
-          <img className="group-icon" alt="" src="/group-5.svg" />
         </div>
       </div>
 
@@ -440,13 +456,25 @@ const DesktopApp = () => {
           <div className="chat-to-us-parent">
             <div className="sowing-the-seeds-container">Chat to us</div>
             <div className="organic-hashtag-fam-container">
-              <span className="vapecuppingwoke"> connect@sitafal.ai</span>
+              <a
+                className="mailredirect"
+                href="mailto:connect@sitafal.ai"
+                style={{ textDecoration: "none" }}
+              >
+                <span className="vapecuppingwoke"> connect@sitafal.ai</span>
+              </a>
             </div>
           </div>
           <div className="call-us-parent">
             <div className="sowing-the-seeds-container">Call us</div>
             <div className="organic-hashtag-fam-container">
-              <p className="p"> +91 91192 25083</p>
+              <a
+                className="phonenumber"
+                href="tel:+919119225083"
+                style={{ textDecoration: "none" }}
+              >
+                <p className="p">+91 91192 25083</p>
+              </a>
             </div>
           </div>
           <div className="vector-parent">
@@ -538,41 +566,6 @@ const DesktopApp = () => {
                 What Excites Us
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="footer-common">
-        <div className="instance-parent" onClick={onGroupContainerClick}>
-          <div className="sitafal-parent">
-            <div className="sitafal">
-              <span className="s">s</span>
-              <span className="i">i</span>
-              <span className="tafal">tafal</span>
-            </div>
-            <img className="subtract-icon" alt="" src="/subtract.svg" />
-          </div>
-          <div className="unlocking-new-potential-group">
-            <div
-              className="unlocking-new-potential"
-              onClick={onUnlockingNewPotential1Click}
-            >
-              Unlocking New Potential
-            </div>
-            <div
-              className="unlocking-new-potential"
-              onClick={onUnderTheHood1Click}
-            >
-              Under The Hood
-            </div>
-            <div
-              className="unlocking-new-potential"
-              onClick={onWhatExcitesUs1Click}
-            >
-              What Excites Us
-            </div>
-          </div>
-          <div className="Social-links">
-            <img className="frame-child" alt="" src="/frame-41.svg" />
           </div>
         </div>
       </div>
