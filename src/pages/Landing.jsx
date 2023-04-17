@@ -485,6 +485,11 @@ const DesktopApp = () => {
           </div>
           <div className="vector-parent">
             <img className="rectangle-icon" alt="" src="/rectangle-13.svg" />
+            <img
+              class="frame-contact"
+              alt=""
+              src="/pexels-roman-pohorecki-230557.jpg"
+            />
             <div className="vector-wrapper"></div>
             <div className="frame-div">
               <div className="lets-team-up-parent">
