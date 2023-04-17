@@ -7,6 +7,7 @@ import RequestWhitePaperContainer from "../components/RequestWhitePaperContainer
 import "./Landing.css";
 import React from "react";
 import "./Landing-mobile.css";
+import "./inputbox.css";
 
 const MobileApp = () => {
   const navigate = useNavigate();
@@ -493,50 +494,52 @@ const DesktopApp = () => {
               </div>
             </div>
             <div className="your-name-wrapper">
-              <input
-                className="sowing-the-seeds-container"
-                type="text"
-                id="name"
-                value={name}
-                placeholder="Your name"
-                onChange={(event) => setName(event.target.value)}
-              />
+              <label class="custom-field one">
+                <input
+                  type="text"
+                  placeholder=" "
+                  onChange={(event) => setName(event.target.value)}
+                />
+                <span class="placeholder">Enter Your Name</span>
+              </label>
             </div>
             <div className="your-email-wrapper">
-              <input
-                className="sowing-the-seeds-container"
-                type="email"
-                id="email"
-                value={email}
-                placeholder="Your email"
-                onChange={(event) => setEmail(event.target.value)}
-              />
+              <label class="custom-field one">
+                <input
+                  type="email"
+                  placeholder="&nbsp;"
+                  onChange={(event) => setEmail(event.target.value)}
+                />
+                <span class="placeholder">Enter Your Email</span>
+              </label>
             </div>
 
-            <div className="frame-wrapper1">
-              <div className="your-message-wrapper">
-                <textarea
-                  className="sowing-the-seeds-container"
-                  id="message"
-                  value={message}
-                  placeholder="Your message"
+            <div className="your-message-wrapper">
+              <label class="custom-field three">
+                <input
+                  type="text"
+                  placeholder="&nbsp;"
                   onChange={(event) => setMessage(event.target.value)}
-                ></textarea>
-              </div>
+                />
+                <span class="placeholder">Enter Your Message</span>
+              </label>
             </div>
-            <div className="component-4-wrapper">
-              <div className="component-4">
-                <div className="component-4-child" />
-                <button
-                  type="submit"
-                  className="component-4-child"
-                  onClick={handleSubmit}
-                >
-                  Send
-                </button>
-              </div>
+
+            <div className="your-checkbox-wrapper">
+              <label className="form-control">
+                <input type="checkbox" name="checkbox" />
+              </label>
+              <span className="subscribe">Subscribe For Updates</span>
             </div>
-            <div className="frame-child2" />
+            <div className="your-send-wrapper">
+              <button
+                type="submit"
+                className="component-4-child"
+                onClick={handleSubmit}
+              >
+                Send
+              </button>
+            </div>
           </div>
           <div className="contact-card-child" />
           <div className="contact-card-item" />
