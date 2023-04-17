@@ -8,7 +8,7 @@
     rgba(255, 255, 255, 0)
   );
   width: 1440px;
-  height: 2467px;
+  height: 1500px;
 }
 .layer-1-icon {
   position: absolute;
@@ -30,7 +30,7 @@
 }
 .forecasting-that-feels {
   position: absolute;
-  top: 224px;
+  top: 170px;
   left: calc(50% - 432px);
   font-size: 96px;
   line-height: 112.5%;
@@ -52,14 +52,14 @@
 }
 .a-pressing-issue-container {
   position: absolute;
-  top: 1104px;
-  left: calc(50% - 268px);
+  top: 1000px;
+  left: calc(50% - 350px);
   font-size: 16px;
   line-height: 160%;
   font-weight: 300;
   font-family: Poppins;
   display: inline-block;
-  width: 536px;
+  width: 700px;
 }
 .what-excites-us-inner {
   position: absolute;
@@ -178,7 +178,7 @@
 }
 .unlocking-new-potential-parent1 {
   position: absolute;
-  top: 1844px;
+  top: 1615px;
   left: 492px;
   width: 457px;
   height: 16px;
@@ -219,7 +219,7 @@
   position: relative;
   background-color: #fff;
   width: 100%;
-  height: 1931px;
+  height: 1700px;
   text-align: center;
   font-size: 12px;
   color: #000;

@@ -153,73 +153,71 @@ const DesktopApp = () => {
       <div className="under-the-hood-child" />
       <img className="layer-1-icon1" alt="" src="/layer-1.svg" />
       <div className="under-the-hood-item" />
-      <div
-        className="unlocking-new-potential5"
-        onClick={onUnlockingNewPotentialClick}
-      >
-        Unlocking New Potential
-      </div>
-      <div className="under-the-hood6">Under The Hood</div>
-      <div className="what-excites-us6" onClick={onWhatExcitesUsClick}>
-        What Excites Us
-      </div>
-      <div className="sitafal-parent1" onClick={onGroupContainerClick}>
-        <div className="sitafal5">
-          <span className="s4">s</span>
-          <span className="i4">i</span>
-          <span className="tafal4">tafal</span>
-        </div>
-        <img className="subtract-icon4" alt="" src="/subtract.svg" />
-      </div>
-      <img className="under-the-hood-inner" alt="" src="/vector-111.svg" />
-      <div className="component-53">
-        <div className="rectangle-div" />
-        <div className="try-now3">Try Now</div>
-      </div>
-      <div className="component-5-group">
-        <img className="under-the-hood-child1" alt="" src="/vector-10.svg" />
-        <div className="component-54">
-          <div className="rectangle-div" />
-          <div className="try-now3">Try Now</div>
-        </div>
-        <div className="sitafal-parent2" onClick={onGroupContainer1Click}>
-          <div className="sitafal5">
-            <span className="s4">s</span>
-            <span className="i4">i</span>
-            <span className="tafal4">tafal</span>
+      <div className="Navbar-common">
+        <div className="component-5-group">
+          <img className="under-the-hood-child1" alt="" src="/vector-10.svg" />
+          <div className="component-54">
+            <div className="rectangle-div" />
+            <div className="try-now3">Try Now</div>
           </div>
-          <img className="subtract-icon4" alt="" src="/subtract.svg" />
-        </div>
-        <div className="frame-wrapper2">
-          <div className="unlocking-new-potential-parent3">
-            <div
-              className="unlocking-new-potential6"
-              onClick={onUnlockingNewPotential1Click}
-            >
-              Unlocking New Potential
+          <div className="sitafal-parent2" onClick={onGroupContainer1Click}>
+            <div className="sitafal5">
+              <span className="s4">s</span>
+              <span className="i4">i</span>
+              <span className="tafal4">tafal</span>
             </div>
-            <div className="under-the-hood7" onClick={onUnderTheHood1Click}>
-              Under The Hood
-            </div>
-            <div
-              className="unlocking-new-potential6"
-              onClick={onWhatExcitesUs1Click}
-            >
-              What Excites Us
+            <img className="subtract-icon4" alt="" src="/subtract.svg" />
+          </div>
+          <div className="frame-wrapper2">
+            <div className="unlocking-new-potential-parent3">
+              <div
+                className="unlocking-new-potential6"
+                onClick={onUnlockingNewPotential1Click}
+              >
+                Unlocking New Potential
+              </div>
+              <div className="under-the-hood7" onClick={onUnderTheHood1Click}>
+                Under The Hood
+              </div>
+              <div
+                className="unlocking-new-potential6"
+                onClick={onWhatExcitesUs1Click}
+              >
+                What Excites Us
+              </div>
             </div>
           </div>
+          <div className="frame-child3" />
         </div>
-        <div className="frame-child3" />
       </div>
 
-      <div className="instance-group">
-        <div className="sitafal-parent3" onClick={onGroupContainer2Click}>
-          <div className="sitafal5">
-            <span className="s4">s</span>
-            <span className="i4">i</span>
-            <span className="tafal4">tafal</span>
+      <div className="footer-common">
+        <img className="what-excites-us-inner" alt="" src="/vector-111.svg" />
+        <div className="sitafal-container" onClick={onGroupContainer1Click}>
+          <div className="sitafal2">
+            <span className="s1">s</span>
+            <span className="i1">i</span>
+            <span className="tafal1">tafal</span>
           </div>
-          <img className="subtract-icon4" alt="" src="/subtract.svg" />
+          <img className="subtract-icon1" alt="" src="/subtract.svg" />
+        </div>
+        <img className="what-excites-us-child1" alt="" src="/group-4.svg" />
+        <div className="unlocking-new-potential-parent10">
+          <div
+            className="unlocking-new-potential3"
+            onClick={onUnlockingNewPotential1Click}
+          >
+            Unlocking New Potential
+          </div>
+          <div
+            className="unlocking-new-potential30"
+            onClick={onUnderTheHood1Click}
+          >
+            Under The Hood
+          </div>
+          <div className="what-excites-us40" onClick={onWhatExcitesUs1Click}>
+            What Excites Us
+          </div>
         </div>
       </div>
       <div className="help-push-science-forward-parent">

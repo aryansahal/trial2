@@ -184,82 +184,63 @@ const DesktopApp = () => {
           notoriously difficult to solve.
         </p>
       </div>
-      <img className="what-excites-us-inner" alt="" src="/vector-111.svg" />
-      <div
-        className="unlocking-new-potential2"
-        onClick={onUnlockingNewPotentialClick}
-      >
-        Unlocking New Potential
-      </div>
-      <div className="under-the-hood2" onClick={onUnderTheHoodClick}>
-        Under The Hood
-      </div>
-      <div className="what-excites-us3" onClick={onWhatExcitesUsClick}>
-        What Excites Us
-      </div>
-      <div className="sitafal-group" onClick={onGroupContainerClick}>
-        <div className="sitafal2">
-          <span className="s1">s</span>
-          <span className="i1">i</span>
-          <span className="tafal1">tafal</span>
-        </div>
-        <img className="subtract-icon1" alt="" src="/subtract.svg" />
-      </div>
-      <div className="component-51">
-        <div className="component-5-item" />
-        <div className="try-now1">Try Now</div>
-      </div>
-      <div className="sitafal-container" onClick={onGroupContainer1Click}>
-        <div className="sitafal2">
-          <span className="s1">s</span>
-          <span className="i1">i</span>
-          <span className="tafal1">tafal</span>
-        </div>
-        <img className="subtract-icon1" alt="" src="/subtract.svg" />
-      </div>
-      <img className="what-excites-us-child1" alt="" src="/group-4.svg" />
-      <div className="unlocking-new-potential-parent1">
-        <div
-          className="unlocking-new-potential3"
-          onClick={onUnlockingNewPotential1Click}
-        >
-          Unlocking New Potential
-        </div>
-        <div
-          className="unlocking-new-potential3"
-          onClick={onUnderTheHood1Click}
-        >
-          Under The Hood
-        </div>
-        <div className="what-excites-us4" onClick={onWhatExcitesUs1Click}>
-          What Excites Us
-        </div>
-      </div>
-      <div className="unlocking-new-potential-parent2">
-        <img className="what-excites-us-child2" alt="" src="/vector-10.svg" />
-        <div
-          className="unlocking-new-potential2"
-          onClick={onUnlockingNewPotential2Click}
-        >
-          Unlocking New Potential
-        </div>
-        <div className="under-the-hood2" onClick={onUnderTheHood2Click}>
-          Under The Hood
-        </div>
-        <div className="what-excites-us3" onClick={onWhatExcitesUs2Click}>
-          What Excites Us
-        </div>
-        <div className="component-51">
-          <div className="component-5-item" />
-          <div className="try-now1">Try Now</div>
-        </div>
-        <div className="group-div" onClick={onGroupContainer2Click}>
+
+      <div className="footer-common">
+        <img className="what-excites-us-inner" alt="" src="/vector-111.svg" />
+        <div className="sitafal-container" onClick={onGroupContainer1Click}>
           <div className="sitafal2">
             <span className="s1">s</span>
             <span className="i1">i</span>
             <span className="tafal1">tafal</span>
           </div>
           <img className="subtract-icon1" alt="" src="/subtract.svg" />
+        </div>
+        <img className="what-excites-us-child1" alt="" src="/group-4.svg" />
+        <div className="unlocking-new-potential-parent1">
+          <div
+            className="unlocking-new-potential3"
+            onClick={onUnlockingNewPotential1Click}
+          >
+            Unlocking New Potential
+          </div>
+          <div
+            className="unlocking-new-potential3"
+            onClick={onUnderTheHood1Click}
+          >
+            Under The Hood
+          </div>
+          <div className="what-excites-us4" onClick={onWhatExcitesUs1Click}>
+            What Excites Us
+          </div>
+        </div>
+      </div>
+      <div className="Navbar-common">
+        <div className="unlocking-new-potential-parent2">
+          <img className="what-excites-us-child2" alt="" src="/vector-10.svg" />
+          <div
+            className="unlocking-new-potential2"
+            onClick={onUnlockingNewPotential2Click}
+          >
+            Unlocking New Potential
+          </div>
+          <div className="under-the-hood2" onClick={onUnderTheHood2Click}>
+            Under The Hood
+          </div>
+          <div className="what-excites-us3" onClick={onWhatExcitesUs2Click}>
+            What Excites Us
+          </div>
+          <div className="component-51">
+            <div className="component-5-item" />
+            <div className="try-now1">Try Now</div>
+          </div>
+          <div className="group-div" onClick={onGroupContainer2Click}>
+            <div className="sitafal2">
+              <span className="s1">s</span>
+              <span className="i1">i</span>
+              <span className="tafal1">tafal</span>
+            </div>
+            <img className="subtract-icon1" alt="" src="/subtract.svg" />
+          </div>
         </div>
       </div>
     </div>

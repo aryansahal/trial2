@@ -8,7 +8,7 @@
     rgba(255, 255, 255, 0)
   );
   width: 1440px;
-  height: 2467px;
+  height: 1600px;
 }
 .layer-1-icon1 {
   position: absolute;
@@ -217,7 +217,7 @@
 }
 .instance-group {
   position: absolute;
-  top: 1810px;
+  top: 1500px;
   left: 55px;
   width: 1339px;
   height: 78px;
@@ -225,6 +225,26 @@
   gap: 256px;
   text-align: left;
   font-size: 24px;
+}
+.unlocking-new-potential-parent10 {
+  position: absolute;
+  top: 1515px;
+  left: 492px;
+  width: 457px;
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 41px;
+}
+
+.unlocking-new-potential30 {
+  font-weight: 500;
+  cursor: pointer;
+}
+.what-excites-us40 {
+  cursor: pointer;
 }
 .help-push-science {
   position: relative;
@@ -234,7 +254,8 @@
 }
 .publish-to-earn-publish {
   position: relative;
-  font-size: 32px;
+  top: -60px;
+  font-size: 26px;
   font-weight: 300;
   font-family: Poppins;
   display: inline-block;
@@ -242,8 +263,8 @@
 }
 .help-push-science-forward-parent {
   position: absolute;
-  top: 106px;
-  left: 60px;
+  top: 95px;
+  left: 80px;
   width: 1296px;
   height: 680px;
   overflow: hidden;
@@ -268,8 +289,8 @@
 }
 .any-machine-learning-model-is-wrapper {
   position: absolute;
-  top: 956px;
-  left: 143px;
+  top: 600px;
+  left: 153px;
   width: 1189px;
   height: 625px;
   overflow: hidden;
@@ -286,7 +307,7 @@
   position: relative;
   background-color: #fff;
   width: 100%;
-  height: 1931px;
+  height: 1600px;
   text-align: center;
   font-size: 12px;
   color: #000;

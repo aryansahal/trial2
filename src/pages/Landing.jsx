@@ -509,6 +509,38 @@ const DesktopApp = () => {
           <div className="contact-card-item" />
         </div>
       </div>
+
+      <div className="Navbar-common">
+        <div className="component-5-parent">
+          <img className="landing-inner" alt="" src="/vector-10.svg" />
+          <div className="component-5">
+            <div className="component-5-child" />
+            <div className="try-now">Try Now</div>
+          </div>
+          <div className="frame-wrapper">
+            <div className="unlocking-new-potential-parent">
+              <div
+                className="unlocking-new-potential"
+                onClick={onUnlockingNewPotential1Click}
+              >
+                Unlocking New Potential
+              </div>
+              <div
+                className="unlocking-new-potential"
+                onClick={onUnderTheHoodClick}
+              >
+                Under The Hood
+              </div>
+              <div
+                className="unlocking-new-potential"
+                onClick={onWhatExcitesUsClick}
+              >
+                What Excites Us
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="footer-common">
         <div className="instance-parent" onClick={onGroupContainerClick}>
           <div className="sitafal-parent">
@@ -541,37 +573,6 @@ const DesktopApp = () => {
           </div>
           <div className="Social-links">
             <img className="frame-child" alt="" src="/frame-41.svg" />
-          </div>
-        </div>
-      </div>
-      <div className="Navbar-common">
-        <div className="component-5-parent">
-          <img className="landing-inner" alt="" src="/vector-10.svg" />
-          <div className="component-5">
-            <div className="component-5-child" />
-            <div className="try-now">Try Now</div>
-          </div>
-          <div className="frame-wrapper">
-            <div className="unlocking-new-potential-parent">
-              <div
-                className="unlocking-new-potential"
-                onClick={onUnlockingNewPotential1Click}
-              >
-                Unlocking New Potential
-              </div>
-              <div
-                className="unlocking-new-potential"
-                onClick={onUnderTheHoodClick}
-              >
-                Under The Hood
-              </div>
-              <div
-                className="unlocking-new-potential"
-                onClick={onWhatExcitesUsClick}
-              >
-                What Excites Us
-              </div>
-            </div>
           </div>
         </div>
       </div>

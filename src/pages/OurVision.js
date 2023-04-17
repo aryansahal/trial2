@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./OurVision.css";
 import React from "react";
@@ -112,6 +112,21 @@ const MobileApp = () => {
 };
 const DesktopApp = () => {
   const navigate = useNavigate();
+  const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.5 }
+    );
+    const target = document.querySelector(".our-vision-item");
+    observer.observe(target);
+
+    return () => {
+      observer.unobserve(target);
+    };
+  }, []);
 
   const onGroupContainerClick = useCallback(() => {
     navigate("/");
@@ -188,74 +203,58 @@ const DesktopApp = () => {
         <p className="say-goodbye-to">.</p>
         <p className="say-goodbye-to">{`Say goodbye to the data limits on Google Collab, & waiting for days to train your AI models. Use our platform to train 10x bigger models, at 10x faster speeds as you watch the future you build, unravel before your eyes.`}</p>
       </div>
-      <div className="sitafal-parent4" onClick={onGroupContainerClick}>
-        <div className="sitafal9">
-          <span className="s7">s</span>
-          <span className="i7">i</span>
-          <span className="tafal7">tafal</span>
-        </div>
-        <img className="subtract-icon7" alt="" src="/subtract.svg" />
-      </div>
-      <img className="our-vision-inner" alt="" src="/vector-112.svg" />
-      <div
-        className="unlocking-new-potential7"
-        onClick={onUnlockingNewPotentialClick}
-      >
-        Unlocking New Potential
-      </div>
-      <div className="under-the-hood8" onClick={onUnderTheHoodClick}>
-        Under The Hood
-      </div>
-      <div className="what-excites-us8" onClick={onWhatExcitesUsClick}>
-        What Excites Us
-      </div>
-      <div className="sitafal-parent5" onClick={onGroupContainer1Click}>
-        <div className="sitafal9">
-          <span className="s7">s</span>
-          <span className="i7">i</span>
-          <span className="tafal7">tafal</span>
-        </div>
-        <img className="subtract-icon7" alt="" src="/subtract.svg" />
-      </div>
-      <div className="unlocking-new-potential-parent4">
-        <div
-          className="unlocking-new-potential8"
-          onClick={onUnlockingNewPotential1Click}
-        >
-          Unlocking New Potential
-        </div>
-        <div className="under-the-hood9" onClick={onUnderTheHood1Click}>
-          Under The Hood
-        </div>
-        <div className="under-the-hood9" onClick={onWhatExcitesUs1Click}>
-          What Excites Us
-        </div>
-      </div>
-      <div className="unlocking-new-potential-parent5">
-        <img className="our-vision-child1" alt="" src="/vector-10.svg" />
-        <div
-          className="unlocking-new-potential7"
-          onClick={onUnlockingNewPotential2Click}
-        >
-          Unlocking New Potential
-        </div>
-        <div className="under-the-hood8" onClick={onUnderTheHood2Click}>
-          Under The Hood
-        </div>
-        <div className="what-excites-us8" onClick={onWhatExcitesUs2Click}>
-          What Excites Us
-        </div>
-        <div className="component-56">
-          <div className="component-5-child2" />
-          <div className="try-now5">Try Now</div>
-        </div>
-        <div className="sitafal-parent6" onClick={onGroupContainer2Click}>
+      <div className="footer-common">
+        <div className="sitafal-parent4" onClick={onGroupContainerClick}>
           <div className="sitafal9">
             <span className="s7">s</span>
             <span className="i7">i</span>
             <span className="tafal7">tafal</span>
           </div>
           <img className="subtract-icon7" alt="" src="/subtract.svg" />
+        </div>
+        <img className="our-vision-inner" alt="" src="/vector-112.svg" />
+        <div className="unlocking-new-potential-parent4">
+          <div
+            className="unlocking-new-potential8"
+            onClick={onUnlockingNewPotential1Click}
+          >
+            Unlocking New Potential
+          </div>
+          <div className="under-the-hood9" onClick={onUnderTheHood1Click}>
+            Under The Hood
+          </div>
+          <div className="under-the-hood9" onClick={onWhatExcitesUs1Click}>
+            What Excites Us
+          </div>
+        </div>
+      </div>
+      <div className="Navbar-common">
+        <div className="unlocking-new-potential-parent5">
+          <img className="our-vision-child1" alt="" src="/vector-10.svg" />
+          <div
+            className="unlocking-new-potential7"
+            onClick={onUnlockingNewPotential2Click}
+          >
+            Unlocking New Potential
+          </div>
+          <div className="under-the-hood8" onClick={onUnderTheHood2Click}>
+            Under The Hood
+          </div>
+          <div className="what-excites-us8" onClick={onWhatExcitesUs2Click}>
+            What Excites Us
+          </div>
+          <div className="component-56">
+            <div className="component-5-child2" />
+            <div className="try-now5">Try Now</div>
+          </div>
+          <div className="sitafal-parent6" onClick={onGroupContainer2Click}>
+            <div className="sitafal9">
+              <span className="s7">s</span>
+              <span className="i7">i</span>
+              <span className="tafal7">tafal</span>
+            </div>
+            <img className="subtract-icon7" alt="" src="/subtract.svg" />
+          </div>
         </div>
       </div>
 
