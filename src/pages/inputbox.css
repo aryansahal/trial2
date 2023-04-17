@@ -21,6 +21,7 @@
   font-size: 14px;
   background: none;
   border: 2px solid #ddd;
+  color: #ffffff;
   transition: border-color 0.3s ease;
 }
 
@@ -132,6 +133,7 @@
   display: grid;
   grid-template-columns: 1em auto;
   gap: 0.5em;
+  color: #aaa;
 }
 
 .form-control--disabled {
@@ -171,7 +173,7 @@ input[type="checkbox"]::before {
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(--form-control-color);
   /* Windows High Contrast Mode */
-  background-color: CanvasText;
+  background-color: #aaa;
 }
 
 input[type="checkbox"]:checked::before {
