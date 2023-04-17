@@ -328,7 +328,7 @@ const DesktopApp = () => {
   return (
     <div className="landing">
       <div className="landing-child" />
-      <img className="landing-item" alt="" src="/vector-11.svg" />
+
       <div className="footer-common">
         <div className="instance-parent" onClick={onGroupContainerClick}>
           <div className="sitafal-parent">
@@ -425,7 +425,12 @@ const DesktopApp = () => {
       </div>
       <div className="slide2">
         <div className="rectangle-parent">
-          <img className="frame-inner" alt="" src="/rectangle-12@2x.png" />
+          <video
+            class="frame-inner"
+            alt=""
+            src="/pexels-pavel-danilyuk-8084491-3840x2160-25fps.mp4"
+          />
+
           <div className="chatgpt-has-taken-container">
             <p className="unlocking">
               <span className="chatgpt-has-taken">{`ChatGPT has taken the world by storm & for good measure. But Language models (LLMs in tech-speak) will soon be optimized to oblivion. However, beyond Transformers (the T in GPT), hundreds of ML models are yet to see their true potential. We want to help you unlock that potential & bring your vision to fruition. Hence, we have named our platform `}</span>
